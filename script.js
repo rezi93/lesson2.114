@@ -11,26 +11,22 @@
 // console.log(sum);
 
 
-// function testfunction(...y) {
-//     numbers=0
-//     for (let x of y){
-//         numbers=numbers+x
-//         if (x > 0){
+function testfunction(...y) {
+    numbers=0
+    for (let x of y){
+        if (x>0) {
+          numbers+=x
+        }
             
-//             console.log(x);
             
-            
-//         }
-//         // numbers = 0
-//         // for (let b of x){
-//         // numbers = numbers+b;
-//         // console.log(numbers);
-//         // }
-//     }
-// }  
+        }
+       return numbers;
+    }
+  
     
 
-// testfunction (2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8);
+let sum = testfunction (2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8);
+console.log(sum);
 
 
 let user = {
